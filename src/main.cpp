@@ -545,7 +545,7 @@ namespace {
             wchar_t buffer[256]{};
             wsprintfW(
                 buffer,
-                L"%04d-%02d-%02d\nC++ windows island\nTest Context.",
+                L"%04d-%02d-%02d\nC++ windows island\nTest Context .",
                 st.wYear,
                 st.wMonth,
                 st.wDay);
